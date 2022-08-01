@@ -3,7 +3,7 @@ import './App.css';
 import TodoList from '../TodoList';
 import { Navbar, NavbarBrand } from "reactstrap";
 
-const headerTitle = "Todoifier";
+const headerTitle = "Todo List";
 
 const headerDisplay = (title) => (
   <Navbar color="dark" dark expand="md">
