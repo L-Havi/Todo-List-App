@@ -1,0 +1,27 @@
+@import '../shared';
+
+.todo {
+    border: 2px solid black;
+    text-align: center;
+    background: $todo-normal;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+.redDivider {
+    border: 2px solid red;
+}
+
+.critical {
+    text-align: center;
+    background: $todo-critical;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border: 4px dashed red;
+}
+
+.done {
+    background: $todo-complete;
+}
